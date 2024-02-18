@@ -5,8 +5,9 @@ import pandas as pd
 st.write("""
 #Simple Stock Price Application
 
+Shown are the stock closing prices and volume of Google!
 
-#Shown are the stock closing prices and volume of Google""")
+""")
 
 #Define the ticker symbol
 tickerSymbol = "GOOGL"
