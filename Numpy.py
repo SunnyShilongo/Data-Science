@@ -88,3 +88,21 @@ print(arr[bool_arr]) #Only returns whats applicable to the subject being printed
 
 #Short version
 print(arr[arr>4])
+
+#Operations
+arr25 = arr + 25
+print(arr25)
+
+
+arrsqrt = np.sqrt(arr)
+print(arrsqrt)
+print(arr_2d)
+
+arr2d = np.arange(0,25).reshape(5,5)
+print(arr2d)
+
+arr2d.sum()
+print(arr2d.sum())
+print(arr.sum())
+print(arr2d.sum(axis=0)) #axis = 0 --> Calculates counting the column total
+print(arr2d.sum(axis=1)) #axis = 1 --> Calculates counting across the rows
