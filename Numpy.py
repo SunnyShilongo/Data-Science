@@ -22,7 +22,7 @@ nump_matrix = np.array(my_matrix)
 # print(np.arange(0, 12, 3))
 
 # print(np.random.rand(10))
-# print(np.random.seed(42))
+print(np.random.seed(42))
 # print(np.random.rand(4))
 
 arr = np.arange(0, 50)
@@ -106,3 +106,36 @@ print(arr2d.sum())
 print(arr.sum())
 print(arr2d.sum(axis=0)) #axis = 0 --> Calculates counting the column total
 print(arr2d.sum(axis=1)) #axis = 1 --> Calculates counting across the rows
+
+
+#Exercises
+arr10_5 = [10, 10, 10, 10, 10]
+print(arr10_5)
+arr10 = np.array(arr10_5)
+print(type(arr10))
+
+print(np.arange(10, 51))
+print(np.arange(10, 51, 2))
+
+arr3 = np.array([[0, 1, 2], [3, 4, 5], [6, 7, 8]])
+print(arr3)
+print(np.random.rand())
+print(np.random.randn(26))
+t_20 = np.arange(0,1, 20)
+
+# RUN THIS CELL - THIS IS OUR STARTING MATRIX
+mat = np.arange(1,26).reshape(5,5)
+print(mat)
+print(mat[2:,1:])
+print("Next")
+print(mat[4:5])
+print("Next")
+print(mat[3:5])
+print("Sum")
+print(mat.sum())
+print("Standard Deviation")
+print(mat.std())
+print("Column Sum")
+print(mat.sum(axis=0))
+print(np.random.randn(26))
+print(np.random.randn(25))
