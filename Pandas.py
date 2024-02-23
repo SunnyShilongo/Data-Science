@@ -30,6 +30,7 @@ print(sales_q2) #Prints a Series
 
 #When a certain name isn't in both Series Tables, a NAN (Not A Number) is inputted at the  location
 print(sales_q2 + sales_q1)
+print('This is not desired as it does not give much information on the data being reported on.')
 
 #Using the .add method to bypass NAN being returned, but having it FILL_VALUE of 0 where the data is not in both Series Table
 print(sales_q1.add(sales_q2, fill_value=0))
