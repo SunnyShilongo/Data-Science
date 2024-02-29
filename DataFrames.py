@@ -69,4 +69,17 @@ print(tips.drop('Tip and Bill', axis = 1)) # Not Permenant
 tips = tips.drop('Tip and Bill', axis = 1) # Permenant
 print(tips)
 
+'''ROWS'''
+#Changing Index(Unique Identifier/Primary Key)
+#print(df.index())
+print(tips.index)
+print(tips.set_index("Payment ID"))
 
+#Make it Permanent
+tips = tips.set_index('Payment ID')
+
+print(tips.head)
+
+#Reset the Index
+tips = tips.reset_index()
+print(tips.head)
