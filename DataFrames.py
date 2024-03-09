@@ -105,5 +105,7 @@ print(tips[(tips['total_bill'] > 30) | (tips['sex'] == 'Male')]) #One is True
 print(tips[(tips['day']=='Sun') | (tips['day']=='Sat') | (tips['day']=='Fri')])
 
 ##Getting all Orders made on the Weekend including Friday (Short Version)
+#1. Make a list of the factors that are the same type
+#2. Go print
 options = ['Fri', 'Sat', 'Sun']
 print(tips[tips['day'].isin(options)])
