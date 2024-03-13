@@ -67,3 +67,6 @@ print(tips)
 
 tips['Quality'] = np.vectorize(quality)(tips['total_bill'], tips['tip'])
 print(tips)
+
+
+
